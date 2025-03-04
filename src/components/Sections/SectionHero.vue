@@ -8,7 +8,7 @@
 
     <section class="bg-blue-darker  text-white py-14">
         <div class="w-[1400px]  mx-auto mt-32 flex justify-between">
-            <div class="w-2/3 "> 
+            <div class="w-[800px] "> 
                 <h4><span class="text-blue-lighter mr-4">//</span>Encontre as Melhores Soluções Tecnológicas do Mercado.</h4>
                 <h1 class="text-6xl font-bold mt-4">Zdoc Aonde a Criatividade Encontra-se Com a <br> Tecnologia</h1>
                 <p class="text-lg mt-4">Possuímos Expertise em <span class="text-yellow">GESTÃO DE DOCUMENTOS</span> <br> e <span class="text-yellow">CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO</span></p>
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <div class="parentSlider">
-                <div class="slider " style="--width: 500px; --height:504px;
+                <div class="slider " style="--width: 400px; --height:400px;
                 --quantity: 6;">
                     <div class="list">
                         <div class="item " style="--position: 1;"><img class="w-[350px]" src="../../../public/imagens/contractStep1.svg" alt=""></div>
@@ -48,7 +48,7 @@
     background-position: center;
 }
 .parentSlider{
-    width: 650px;
+    width: 600px;
     height: 504px;
     position: relative;
     /* border: 1px solid red; */
@@ -56,7 +56,7 @@
 }
 .slider{
     overflow: hidden;
-    width: 650px;
+    width: 600px;
     height: 624px;
     /* border: 3px solid rgb(23, 13, 114); */
     position: absolute;
@@ -84,11 +84,11 @@
 }
 .slider .list .item:nth-child(2n) {
     /* background-color: brown; */
-    transform: translate(0, 15%);
+    transform: translate(0, 45%);
 }
 .slider .list .item:nth-child(2n+1) {
     /* background-color: rgb(207, 123, 123); */
-    transform: translate(0, -10%);
+    transform: translate(0, 0);
 }
 .slider .list .item img{
     width: 100%;
