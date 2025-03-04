@@ -1,5 +1,5 @@
 <script setup lang="ts">
-
+import Subtitle from '../Subtitle.vue'
 
 
 </script>
@@ -8,8 +8,9 @@
 
     <section class="bg-blue-darker  text-white py-14">
         <div class="w-[1400px]  mx-auto mt-32 flex justify-between">
-            <div class="w-[800px] "> 
-                <h4><span class="text-blue-lighter mr-4">//</span>Encontre as Melhores Soluções Tecnológicas do Mercado.</h4>
+            <div class="w-[800px]"> 
+                <!-- <h4><span class="text-blue-lighter mr-4">//</span>Encontre as Melhores Soluções Tecnológicas do Mercado.</h4> -->
+                <Subtitle title="Encontre as Melhores Soluções Tecnológicas do Mercado."  />
                 <h1 class="text-6xl font-bold mt-4">Zdoc Aonde a Criatividade Encontra-se Com a <br> Tecnologia</h1>
                 <p class="text-lg mt-4">Possuímos Expertise em <span class="text-yellow">GESTÃO DE DOCUMENTOS</span> <br> e <span class="text-yellow">CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO</span></p>
                 <div class="mt-8 flex gap-4">
@@ -25,12 +26,12 @@
                 <div class="slider " style="--width: 400px; --height:400px;
                 --quantity: 6;">
                     <div class="list">
-                        <div class="item " style="--position: 1;"><img class="w-[350px]" src="../../../public/imagens/contractStep1.svg" alt=""></div>
-                        <div class="item" style="--position: 2;"><img src="../../../public/imagens/contractStep2.svg" alt=""></div>
-                        <div class="item" style="--position: 3;"><img src="../../../public/imagens/contractStep3.svg" alt=""></div>
-                        <div class="item" style="--position: 4;"><img src="../../../public/imagens/contractStep4.svg" alt=""></div>
-                        <div class="item" style="--position: 5;"><img src="../../../public/imagens/contractStep5.svg" alt=""></div>
-                        <div class="item " style="--position: 6;"><img src="../../../public/imagens/contractStep6.svg" alt=""></div>
+                        <div class="item " style="--position: 1;  --descricao: 'Projeto no Ar' "><img class="w-[350px]" src="/imagens/contractStep6.svg" alt=""></div>
+                        <div class="item" style="--position: 2; --descricao: 'Atualização Sobre o Projeto' "> <img src="/imagens/contractStep5.svg" alt=""></div>
+                        <div class="item" style="--position: 3; --descricao: 'Direcionamento ao Público Alvo' "><img src="/imagens/contractStep4.svg" alt=""></div>
+                        <div class="item" style="--position: 4; --descricao: 'Pesquisa de Mercado'  "><img src="/imagens/contractStep3.svg" alt=""></div>
+                        <div class="item" style="--position: 5;--descricao: 'Alinhamento Contratual' "><img src="/imagens/contractStep2.svg" alt=""></div>
+                        <div class="item " style="--position: 6;--descricao: 'Entendendo o Seu Problema' "><img src="/imagens/contractStep1.svg" alt=""></div>
                     </div>
                 </div>
          </div>
@@ -81,6 +82,23 @@
     animation: autoRun 36s infinite linear;
     
     animation-delay: calc((36s / var(--quantity)) * (var(--position) - 1) * -1);
+}
+.slider .list .item::after{
+    position: absolute;
+    content: var(--descricao);
+    font-size: 1.125rem;
+    color: var(--color-yellow);
+            font-size: 28px;
+            font-weight: bold;
+            margin-left: 5px;
+}
+.slider .list .item::after:nth-child(2n){
+    /* background-color: brown; */
+    bottom: 0;
+}
+.slider .list .item::after:nth-child(2n+1){
+    /* background-color: brown; */
+    top: 0;
 }
 .slider .list .item:nth-child(2n) {
     /* background-color: brown; */
