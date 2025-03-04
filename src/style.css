@@ -7,6 +7,9 @@
   --color-blue-darker: #010e37;
   --color-yellow: #FFEB00;
   --color-yellowHover: #FFD700;
+
+  --color-blue-lighterHover: oklch(0.562 0.156 264.99); /* Reduzimos a lightness */
+  --color-blue-darkerHover: #03215f; /* Aumentamos a luminosidade */
 }
 
 @layer base {
