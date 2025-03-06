@@ -1,16 +1,16 @@
 <script setup lang="ts">
-import Subtitle from '../Subtitle.vue'
-
+import Subtitle from '../Titles/Subtitle.vue'
 
 </script>
 
 <template>
 
-    <section class="bg-blue-darker  text-white py-14">
+    <section class="bg-blue-darker  text-white py-14 relative">
         <div class="w-[1400px]  mx-auto mt-32 flex justify-between">
             <div class="w-[800px]"> 
                 <!-- <h4><span class="text-blue-lighter mr-4">//</span>Encontre as Melhores Soluções Tecnológicas do Mercado.</h4> -->
                 <Subtitle title="Encontre as Melhores Soluções Tecnológicas do Mercado."  />
+              
                 <h1 class="text-6xl font-bold mt-4">Zdoc Aonde a Criatividade Encontra-se Com a <br> Tecnologia</h1>
                 <p class="text-lg mt-4">Possuímos Expertise em <span class="text-yellow">GESTÃO DE DOCUMENTOS</span> <br> e <span class="text-yellow">CONSULTORIA EM TECNOLOGIA DA INFORMAÇÃO</span></p>
                 <div class="mt-8 flex gap-4">

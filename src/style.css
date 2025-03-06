@@ -1,15 +1,18 @@
-/* style.css */
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+JP:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap');
+
 
 @theme {
-  --color-blue-lighter: oklch(0.662 0.156 264.99);
+  /* 3d72fc */
+  --color-blue-lighter: oklch(0.662 0.156 264.99); 
+  
   --color-blue-darker: #010e37;
   --color-yellow: #FFEB00;
   --color-yellowHover: #FFD700;
 
   --color-blue-lighterHover: oklch(0.562 0.156 264.99); /* Reduzimos a lightness */
   --color-blue-darkerHover: #03215f; /* Aumentamos a luminosidade */
+  --font-arrow: 'Inter', sans-serif;
 }
 
 @layer base {
