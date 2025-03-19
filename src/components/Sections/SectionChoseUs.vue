@@ -5,7 +5,7 @@ import CardChooseUs from '../UI/Cards/CardChooseUs.vue';
 </script>
 
 <template>
-    <section class="bg-blue-darker  text-white relative pb-12">
+    <section id="section-choseUs" class="bg-blue-darker  text-white relative pb-12">
         <div class="w-[1400px]  mx-auto mt-32 flex flex-col  ">
             <div class="mb-12">
             <Subtitle class="mt-20" title="Nosso Diferencial" />

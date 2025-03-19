@@ -6,7 +6,7 @@ import Subtitle from '../Titles/Subtitle.vue'
 </script>
 
 <template>
-    <section class="w-[1400px]  mx-auto mb-12 relative pt-14">
+    <section id="section-clients" class="w-[1400px]  mx-auto mb-12 relative pt-14">
         <HiddenTittle color="BLACK" title="Nossos Clientes" />
 
         <div class="mb-12">

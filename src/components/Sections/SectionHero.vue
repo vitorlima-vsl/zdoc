@@ -5,7 +5,7 @@ import Subtitle from '../Titles/Subtitle.vue'
 
 <template>
 
-    <section class="bg-blue-darker  text-white py-14 relative">
+    <section id="section-hero" class="bg-blue-darker  text-white py-14 relative">
         <div class="w-[1400px]  mx-auto mt-32 flex justify-between">
             <div class="w-[800px]"> 
                 <!-- <h4><span class="text-blue-lighter mr-4">//</span>Encontre as Melhores Soluções Tecnológicas do Mercado.</h4> -->

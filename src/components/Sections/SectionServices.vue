@@ -6,7 +6,7 @@ import Card from '../UI/Cards/Card.vue'
 </script>
 
 <template>
-    <section id="ect" class="w-[1400px]  mx-auto mb-12 relative pt-14">
+    <section id="section-services" class="w-[1400px]  mx-auto mb-12 relative pt-14">
         <HiddenTittle color="BLACK" title="Nossos Serviços" />
 
         <div class="mb-12">
