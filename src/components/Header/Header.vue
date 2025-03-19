@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup >
 
 
 
@@ -14,11 +14,11 @@
         </div>
         <nav class="">
             <ul class="flex gap-2 ">
-                <li class="text-gray-900">Home</li>
-                <a href="#ect">ect</a>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
+                <a href="#section-hero" class="hover:text-blue-darker ">Inicio</a>
+                <a class="hover:text-blue-darker " href="#section-services">Serviços</a>
+                <a class="hover:text-blue-darker" href="#section-choseUs">Sobre</a>
+                <a class="hover:text-blue-darker" href="#section-clients">Clientes</a>
+                <a class="hover:text-blue-darker" href="#section-contact">Contato</a>
             </ul>
         </nav>
        <a class="bg-yellow text-gray-800 py-4 px-6 rounded-4xl hover:bg-yellowHover transition-all" href="#">Contato</a>
@@ -29,5 +29,7 @@
 </template>
 
 <style scoped>
+
+
 
 </style>
