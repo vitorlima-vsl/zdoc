@@ -114,11 +114,24 @@ import Subtitle from '../Titles/Subtitle.vue'
     bottom:0;
 }
 @keyframes autoRun{
-    0%{
+    0% {
         left: 100%;
+        opacity: 1;
     }
-    100%{
+    85% {
+        opacity: 0.9;
+    }
+    90% {
+        opacity: 0.3;
+
+    }
+    95%{
+        opacity: 0.009;
+
+    }
+    100% {
         left: calc(var(--width) * -1);
+       opacity: 0;
     }
 }
 
