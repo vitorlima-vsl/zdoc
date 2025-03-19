@@ -8,7 +8,7 @@ defineProps<{
 
 <template>
     <span 
-        class="text-8xl font-black text-transparent uppercase absolute top-10 left-1/2 text-nowrap -translate-x-1/2"
+        class="text-8xl font-black text-transparent uppercase absolute top-10 left-1/2 text-nowrap -translate-x-1/2 select-none"
         :class="{ 'stroke-white': color?.toUpperCase() === 'WHITE', 'stroke-black': color?.toUpperCase() === 'BLACK' }"
     >
         {{ title }}
