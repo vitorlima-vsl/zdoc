@@ -10,13 +10,19 @@ import Footer from './components/Layout/Footer.vue'
 
 <template>
 
-  <Header  />
-  <SectionHero  />
-  <SectionServices></SectionServices>
-  <SectionChoseUs/>
-  <SectionClients />
-  <SectionBudget />
-  <Footer />
+  <div class="max-[1399px]:hidden">
+    <Header  />
+    <SectionHero  />
+    <SectionServices></SectionServices>
+    <SectionChoseUs/>
+    <SectionClients />
+    <SectionBudget />
+    <Footer />
+  </div>
+  <div class="hidden max-[1399px]:block">
+    <h3 class="text-blue-darker  text-3xl font-bold">RESPONSIVIDADE EM PROGRESSO</h3>
+  </div>
+ 
 </template>
 
 <style scoped>
