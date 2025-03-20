@@ -51,7 +51,7 @@ import HiddenTittle from "../Titles/HiddenTittle.vue";
             </div>
             </div>
             <div class=" bg-black h-full ">
-                <iframe class="h-full rounded-r-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4360038162667!2d-37.05213672400166!3d-10.930400522122982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab2572f27dc73%3A0xca377531970e7058!2sZDoc%20-%20Tecnologia%20em%20Gest%C3%A3o%20Documental!5e0!3m2!1spt-BR!2sbr!4v1742386015788!5m2!1spt-BR!2sbr" width="500"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="h-full rounded-r-xl" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.4360038162667!2d-37.05213672400166!3d-10.930400522122982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab2572f27dc73%3A0xca377531970e7058!2sZDoc%20-%20Tecnologia%20em%20Gest%C3%A3o%20Documental!5e0!3m2!1spt-BR!2sbr!4v1742386015788!5m2!1spt-BR!2sbr" width="500" style="border:0;" allowfullscreen></iframe>
             </div>
 
         </address>
